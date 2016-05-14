@@ -1,0 +1,22 @@
+{
+  "name": "mongoosesample",
+  "version": "1.0.0",
+  "description": "Sample Mongoose usage to find from database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouryar/MongooseSample.git"
+  },
+  "author": "MouryaKumar Reddy Rajala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouryar/MongooseSample/issues"
+  },
+  "homepage": "https://github.com/mouryar/MongooseSample#readme",
+  "dependencies": {
+    "mongoose": "^4.4.17"
+  }
+}

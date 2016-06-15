@@ -4,7 +4,7 @@
   "description": "Sample Mongoose usage to find from database",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/mouryar/MongooseSample#readme",
   "dependencies": {
-    "mongoose": "^4.4.17"
+    "express": "^4.13.4",
+    "http-status": "^0.2.2",
+    "mongoose": "^4.4.17",
+    "wagner-core": "0.2.0"
+  },
+  "devDependencies": {
+    "superagent": "^1.8.3",
+    "wagner-core": "^0.2.0"
   }
 }

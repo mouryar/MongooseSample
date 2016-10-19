@@ -11,7 +11,7 @@ wagner.factory('Category',function(){
 });
 
 return {
-    Category: Category
+    Category: Category //I am back
 };
     
 };
